@@ -1,0 +1,11 @@
+
+.header {
+    grid-area: header;
+    background-color:#091930;
+  }
+  .header img {
+    width: 100px;
+    clip-path: circle(40%);
+  }
+  
+  
