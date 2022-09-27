@@ -8,9 +8,14 @@
 grid-template-areas:
 "header header header"
 "nav content content";
-grid-template-rows : 90px 1fr 1fr;
- grid-template-columns : 1fr 20fr ;
+grid-template-rows : 90px 1fr 400px ;
+ grid-template-columns : 1fr 20fr 1fr ;
     grid-gap: 40px;
 }
 
+.app-wrapper-content {
+  grid-area: content;
+  background-color: rgb(211, 200, 200);
+  margin-right: 100px;
 
+} 

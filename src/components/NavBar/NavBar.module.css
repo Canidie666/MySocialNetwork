@@ -1,16 +1,19 @@
 .nav {
-    grid-area: nav;
-    background-color:#091930;
-    margin-bottom: auto;
-    width: 100px;
-    margin-left: 13px; 
-  
-  }
+  grid-area: nav;
+  background-color: rgb(211, 200, 200);
+  margin-bottom: auto;
+  width: 100px;
+  margin-left: 13px; 
+  padding: 20px;
 
-.item {
-  color: white;
 }
 
-.item.active {
-  color:gold;
+.item  {
+  color: black;
+  text-decoration: none;
+}
+
+.item .active {
+  color: yellow;
+  text-decoration: none;
 }
