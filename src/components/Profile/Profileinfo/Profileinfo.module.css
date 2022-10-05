@@ -1,0 +1,13 @@
+.ava {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ava img {
+    width: 150px;
+    clip-path: circle(50%)
+}
+
+.discription {
+    padding: 20px;
+}

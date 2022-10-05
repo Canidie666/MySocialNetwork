@@ -2,18 +2,21 @@ import React from "react";
 import s from './MyPosts.module.css';
 import Post from './Posts/Post';
 
-const MyPosts = () => {
+
+
+const MyPosts = (props) => {
+
+  let postsElements =
+    props.state.map(p => <Post message={p.message} likesCount={p.likesCount} />);
+
   return (
-    <div className={s.text}>
-      MyPosts
-      <div>
+    <div className={s.posts}>
+      <h3>MyPosts</h3> 
+      <div className={s.textarea}>
         <textarea></textarea>
         <button>Add post</button>
       </div>
-      <Post message="Being gay and sucking balls!1!!" likesCount="34" />
-      <Post message="Fuck my ass against the wall!11" likesCount="23" />
-      <Post message="And make me drink your pee!1!" likesCount="54" />
-      <Post message="And bust a load of pozzed up semen in me!" likesCount="46" />
+      {postsElements}
     </div>
   )
 }
