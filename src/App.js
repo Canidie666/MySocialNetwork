@@ -12,11 +12,11 @@ import Music from './components/Music/Music';
 
 const App = (props) => {
 
-  return (
+  return(
     <BrowserRouter>
       <div className='app-wrapper'>
         <Header />
-        <NavBar />
+        <NavBar state={props.state.navbarPage}/>
         <div className='app-wrapper-content' >
           <Routes>
             <Route  path='/profile' element={<Profile state={props.state.profilePage}/>} />

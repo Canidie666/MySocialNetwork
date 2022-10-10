@@ -1,21 +1,19 @@
 
 .app-wrapper {
   display: grid;
-  width: 1350px;
-  margin: auto;
    background-image: 
-     url('https://img.freepik.com/free-vector/abstract-digital-wave-particles-background_1409-1276.jpg?w=996&t=st=1663798736~exp=1663799336~hmac=61cddbed9cf0d31052e3aa9d4e7997a261f3cbfe54bc3eb90371cf8c822cd87e');    
+     url('https://images.hdqwalls.com/download/blue-blur-color-4k-wp-1920x1080.jpg');
 grid-template-areas:
-"header header header"
-"nav content content";
-grid-template-rows : 90px 1fr 400px ;
- grid-template-columns : 1fr 20fr 1fr ;
+"header header"
+"nav content";
+grid-template-rows : 1fr 11fr  ;
+ grid-template-columns : 2fr 10fr ;
     grid-gap: 20px;
 }
 
 .app-wrapper-content {
   grid-area: content;
-  background-color: rgb(211, 200, 200);
+  background-color: #f6ddc5;
   margin-right: 100px;
 
 } 

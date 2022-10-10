@@ -20,6 +20,14 @@ const state = {
             { id: 3, message: "Gde den'gi?" },
             { id: 4, message: "Kak dela?" }
         ]
+    },
+
+    navbarPage: {
+         friend:  [
+        { id: 1, friend: "Petya"},
+        { id: 2, friend: "Vasya"},
+        { id: 3, friend: "Slavik"}
+    ]
     }
 }
 export default state;

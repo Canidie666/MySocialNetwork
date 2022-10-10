@@ -1,0 +1,15 @@
+.friends {
+    text-decoration: none;
+    color:black;
+    margin-left: 5%;
+}
+.active {
+    text-decoration: none;
+    color:black;
+}
+
+.friends img {
+    width: 40px;
+    clip-path:circle(40%);
+
+}

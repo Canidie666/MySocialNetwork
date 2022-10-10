@@ -1,5 +1,5 @@
 .ava {
-    margin-left: 20px;
+    margin-left: 3%;
     margin-top: 20px;
 }
 
@@ -8,6 +8,8 @@
     clip-path: circle(50%)
 }
 
-.discription {
-    padding: 20px;
+.description {
+    margin-left: 3%;
+    margin-top: 3%;
+
 }
